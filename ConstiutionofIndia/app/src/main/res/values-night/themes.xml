@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConstiutionOfIndia" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <!--- Dark made -->
+    <!-- Screen background if Dark mode on -->
+    <style name="SCREEN">
+        <item name="android:background">#2E2D2D</item>
+    </style>
+
+    <!-- Texts background if Dark mode on -->
+    <style name="TEXT">
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="BUTTON">
+
+        <item name="android:background">#D6CFCF</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <!-- Light Mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light mode attributes here -->
+    </style>
+
+    <!-- Dark Mode -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Customize your dark mode attributes here -->
+    </style>
+
+
+</resources>

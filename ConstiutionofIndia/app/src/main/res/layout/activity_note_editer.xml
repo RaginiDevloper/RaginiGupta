@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.Note_editerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#092032"
+        android:id="@+id/header"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/processback"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:src="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Constitution Of India"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppinsextrabold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/titleEditText"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:hint="Note Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note Content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/edit_text"
+        android:inputType="textMultiLine"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:minLines="5"
+        android:id="@+id/contentEditText"/>
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Notes"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Notes:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/notesTextView"/>
+
+    <ScrollView
+        android:id="@+id/notesScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/notesContainer"
+           android:orientation="vertical"/>
+
+    </ScrollView>
+
+
+</LinearLayout>

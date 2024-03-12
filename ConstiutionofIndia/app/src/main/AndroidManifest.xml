@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/imglogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/imglogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConstiutionOfIndia"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="com.Bookmarks_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.Note_editerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Information_Case_Studies"
+            android:exported="false" />
+        <activity
+            android:name="com.Case_StudiesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Information_ArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Mode_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.About_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.Information_PartsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Information_NewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Parts_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.News_ArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Information_AmendmentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Amendment_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.Information_ScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Schedule_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.Preamble_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.Parliments_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.Slide_Swipe_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Splash_ScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.TTS_SERVICE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

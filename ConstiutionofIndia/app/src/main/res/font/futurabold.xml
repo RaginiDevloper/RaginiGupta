@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    <style name="CustomTextViewStyle">
+    <item name="android:fontFamily">@font/futura_bold</item>
+</style>
+
+    </font-family>
