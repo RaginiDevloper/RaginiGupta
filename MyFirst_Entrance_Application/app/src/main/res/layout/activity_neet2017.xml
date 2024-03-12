@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Neet2017_Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="#C8C6B0"
+        app:cardCornerRadius="18dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ViewPDF"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:text=" View PDF "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="@drawable/button_green"
+                android:textColor="@color/black"
+                android:layout_marginTop="0dp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <Button
+                android:id="@+id/downloadpdf"
+                android:layout_width="78dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="111dp"
+                android:background="@drawable/mains" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfabc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+</LinearLayout>

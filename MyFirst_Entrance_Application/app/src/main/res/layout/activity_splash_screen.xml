@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Splash_ScreenActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLASS 12"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_dark"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Year Question Papers"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imagetree"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tree"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU BECOME WHAT YOU STUDY."
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_dark"/>
+
+
+
+</LinearLayout>

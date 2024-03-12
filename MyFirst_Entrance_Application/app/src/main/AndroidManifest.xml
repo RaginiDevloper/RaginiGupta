@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirst_Entrance_Application"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2015_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.PaperB_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.PaperA_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.Neet2014_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.Neet2015_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.Neet2016_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.Neet2017_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.neet2018_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.NEET_ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.NEET_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.MHcet_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.JeeAdvance_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2002_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2003_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2004_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2005_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2006_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2007_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2008_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2009_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2010_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2011_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2012_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2013_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2014_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2016_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.View2017_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.JEE_ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.JeeMains_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.Subjects_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.trycatch_ragini.practice_papers.Splash_ScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

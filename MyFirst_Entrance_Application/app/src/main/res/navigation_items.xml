@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/optSettings"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"/>
+
+
+        <item
+            android:id="@+id/Sharing"
+            android:title="Sharing"
+            android:icon="@drawable/baseline_share_24"/>
+
+
+    </group>
+
+
+
+
+
+</menu>
